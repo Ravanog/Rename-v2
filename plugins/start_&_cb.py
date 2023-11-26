@@ -93,6 +93,20 @@ async def cb_handler(client, query: CallbackQuery):
                 InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
             ]])            
         )
+    elif data == "setting":
+        await query.message.edit_text(
+            text=Txt.SETTING_TXT.format(client.mention),
+            disable_web_page_preview = True,
+            reply_markup=InlineKeyboardMarkup([[
+                #⚠️ don't change source code & source link ⚠️ #
+                InlineKeyboardButton("𝐒𝐄𝐓 𝐂𝐀𝐏𝐓𝐈𝐎𝐍", callback_data = "caption")
+                ],[
+                InlineKeyboardButton('𝐓𝐇𝐔𝐌𝐁𝐍𝐀𝐈𝐋', callback_data='thumbnail') 
+                ],[
+                InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
+                InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
+            ]])            
+        )
     elif data == "dev":
         await query.message.edit_text(
             text=Txt.DEV_TXT,
