@@ -39,7 +39,7 @@ async def start(client, message):
         InlineKeyboardButton('𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url='https://t.me/+sBgto6Z4qGo2ZmZl'),
         InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url='https://t.me/TG_SUPPORT_GROUP')
         ],[
-        InlineKeyboardButton('⚙️ 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒 ⚙️', callback_data='setting') 
+        InlineKeyboardButton('⚙️ 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒 ⚙️', callback_data='settings') 
         ],[
         InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('Hᴇʟᴩ', callback_data='help')
@@ -63,7 +63,7 @@ async def cb_handler(client, query: CallbackQuery):
                 InlineKeyboardButton('𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url='https://t.me/+sBgto6Z4qGo2ZmZl'),
                 InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url='https://t.me/TG_SUPPORT_GROUP')
                 ],[
-                InlineKeyboardButton('⚙️ 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒 ⚙️', callback_data='setting') 
+                InlineKeyboardButton('⚙️ 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒 ⚙️', callback_data='settings') 
                 ],[
                 InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
                 InlineKeyboardButton('Hᴇʟᴩ', callback_data='help')
