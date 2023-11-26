@@ -121,7 +121,7 @@ async def cb_handler(client, query: CallbackQuery):
         )
     elif data == "cap":
         await query.message.edit_text(
-            text=Txt.CAP_TXT.format(client.mention),
+            text=Txt.CAP_TXT,
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
