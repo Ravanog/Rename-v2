@@ -17,7 +17,7 @@
 
 ## Deploy To Heroku
 
-<a href="https://heroku.com/deploy?template=https://github.com/Kushalhk/Renane"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
+<a href="https://heroku.com/deploy?template=https://github.com/Ravanog/Nanor"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
 
 
 
